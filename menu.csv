@@ -1,0 +1,175 @@
+Day,Meal,ItemName
+Monday,Breakfast,Idly/Vada
+Monday,Breakfast,Mix Veg Sambar
+Monday,Breakfast,Peanut Chutney
+Monday,Breakfast,Banana
+Monday,Breakfast,Bread Butter Jam
+Monday,Breakfast,Milk/Tea/Coffee
+Monday,Breakfast,Boiled Egg
+Monday,Lunch,Butter/Plain Roti
+Monday,Lunch,Toor Dal
+Monday,Lunch,Rice North/South
+Monday,Lunch,Veg Kofta
+Monday,Lunch,Sarakai Kootu
+Monday,Lunch,Tomato Rasam
+Monday,Lunch,Curd
+Monday,Lunch,Drumstick Sambar
+Monday,Lunch,Beetroot Cucumber Carrot Salad
+Monday,High Tea,Veg Cutlets
+Monday,High Tea,Green Chutney
+Monday,High Tea,Milk/Tea/Coffee
+Monday,Dinner,Phulka
+Monday,Dinner,Aloo Soya Gravy
+Monday,Dinner,Rice North/South
+Monday,Dinner,Egg Chop Masala
+Monday,Dinner,Masala Dal (Moong)
+Monday,Dinner,Khichdi
+Monday,Dinner,Pepper Rasam
+Monday,Dinner,Pickle
+Tuesday,Breakfast,Aloo Paratha With Curd
+Tuesday,Breakfast,Rava Khichdi
+Tuesday,Breakfast,Coconut Chutney
+Tuesday,Breakfast,Bread Butter Jam
+Tuesday,Breakfast,Milk/Tea/Coffee
+Tuesday,Breakfast,Fruits Papaya
+Tuesday,Lunch,Chapathi
+Tuesday,Lunch,Chole Masala
+Tuesday,Lunch,Rice North/South
+Tuesday,Lunch,Dal Tadka
+Tuesday,Lunch,Pudalangai Kootu/Poriyal/Sabzi
+Tuesday,Lunch,Rasam
+Tuesday,Lunch,Butter Milk
+Tuesday,Lunch,Papad/Fryums
+Tuesday,Lunch,Boondi (Sweet)
+Tuesday,High Tea,Vada Pav
+Tuesday,High Tea,Milk/Tea/Coffee
+Tuesday,Dinner,Coriander Chapathi
+Tuesday,Dinner,Sev Tamatar
+Tuesday,Dinner,Rice North/South
+Tuesday,Dinner,Sambar
+Tuesday,Dinner,Dal Fry
+Tuesday,Dinner,Aloo Bhindi Bhujia/Dry
+Tuesday,Dinner,Sooji Halwa
+Tuesday,Dinner,Pickle
+Wednesday,Breakfast,Poha Jalebi
+Wednesday,Breakfast,Bread Butter Jam
+Wednesday,Breakfast,Milk/Tea/Coffee
+Wednesday,Breakfast,Fruits Mix Fruit
+Wednesday,Breakfast,Sprouts
+Wednesday,Lunch,Plain Roti
+Wednesday,Lunch,Besan Gatta
+Wednesday,Lunch,Lemon Rice
+Wednesday,Lunch,Chana Dal
+Wednesday,Lunch,Rice North/South
+Wednesday,Lunch,Potato Podimas
+Wednesday,Lunch,Rasam & Pickle
+Wednesday,Lunch,Fryums/Oil
+Wednesday,High Tea,Appe
+Wednesday,High Tea,Red Chilli Chutney
+Wednesday,High Tea,Milk/Tea/Coffee
+Wednesday,Dinner,Roti Plain
+Wednesday,Dinner,Dal Tadka
+Wednesday,Dinner,White Rice
+Wednesday,Dinner,Butter Chicken
+Wednesday,Dinner,Matar Paneer Gravy
+Wednesday,Dinner,Rasam
+Wednesday,Dinner,Pickle
+Thursday,Breakfast,Pav Bhaji/Misal Pav
+Thursday,Breakfast,Rava Upma
+Thursday,Breakfast,Chutney
+Thursday,Breakfast,Bread Butter Jam
+Thursday,Breakfast,Milk/Tea/Coffee
+Thursday,Breakfast,Banana
+Thursday,Lunch,Roti Butter/Plain
+Thursday,Lunch,Kadai Chana/Rajma
+Thursday,Lunch,Jeera Rice
+Thursday,Lunch,Dal Tadka
+Thursday,Lunch,White Rice
+Thursday,Lunch,Curd Rice
+Thursday,Lunch,Kheera Raita
+Thursday,Lunch,Rasam/Khichdi
+Thursday,Lunch,Urad Dal Vada
+Thursday,Lunch,Jeera Rasam
+Thursday,High Tea,Chana Papdi Chaat/Paani Puri
+Thursday,High Tea,Milk/Tea/Coffee
+Thursday,Dinner,Plain Roti
+Thursday,Dinner,Mix Veg Kadhai
+Thursday,Dinner,Green Moong Dal
+Thursday,Dinner,White Rice
+Thursday,Dinner,Egg Bhurji
+Thursday,Dinner,Rasam & Pickle
+Thursday,Dinner,Fryums
+Thursday,Dinner,Shahi Tukda
+Friday,Breakfast,Varieties of Uttapam
+Friday,Breakfast,Sambar/Kara Chutney
+Friday,Breakfast,Bread Butter Jam
+Friday,Breakfast,Milk/Tea/Coffee
+Friday,Breakfast,Sprouts
+Friday,Breakfast,Mix Fruits
+Friday,Lunch,Plain Roti
+Friday,Lunch,Rajma Masala
+Friday,Lunch,Plain Rice
+Friday,Lunch,Bottle Gourd Kootu/Mix Veg Poriyal
+Friday,Lunch,Aloo 65
+Friday,Lunch,Rasam
+Friday,Lunch,Tomato Rice
+Friday,Lunch,Rice/Semiya Kheer
+Friday,Lunch,Salad
+Friday,Lunch,Boondi Raita
+Friday,High Tea,Masala Sandwich
+Friday,High Tea,Sauce
+Friday,High Tea,Milk/Tea/Coffee
+Friday,Dinner,Roti
+Friday,Dinner,Dal Fry (Mix)
+Friday,Dinner,Plain Rice
+Friday,Dinner,Varieties Of Chicken
+Friday,Dinner,Paneer Lababdar/Kadhai Paneer
+Friday,Dinner,Lemon Rasam
+Friday,Dinner,Pickle
+Saturday,Breakfast,Bhatura/Chole (Dry)
+Saturday,Breakfast,Chole Masala/Soup
+Saturday,Breakfast,Vermicelli Khichdi
+Saturday,Breakfast,Bread Butter Jam
+Saturday,Breakfast,Milk/Tea/Coffee
+Saturday,Breakfast,Fruits Banana
+Saturday,Breakfast,Boiled Egg
+Saturday,Lunch,Phulka
+Saturday,Lunch,Kadhi Pakoda
+Saturday,Lunch,White Rice
+Saturday,Lunch,Baingan Bharta
+Saturday,Lunch,Raw Banana Chips
+Saturday,Lunch,Sambar/Rice
+Saturday,Lunch,Rice Papad
+Saturday,Lunch,Paruppu Rasam
+Saturday,Lunch,Khichdi
+Saturday,High Tea,Dahi Vada (2 Pcs)
+Saturday,High Tea,Milk/Tea/Coffee
+Saturday,Dinner,Jeera Chapathi
+Saturday,Dinner,Lauki Chana Dal
+Saturday,Dinner,Jeera Rice
+Saturday,Dinner,Sev Bhaji
+Saturday,Dinner,White Rice South
+Saturday,Dinner,Rasam & Pickle
+Saturday,Dinner,Dalia/Soup
+Sunday,Breakfast,Masala/Plain Dosa
+Sunday,Breakfast,Sambar Chutney
+Sunday,Breakfast,Bread Butter Jam
+Sunday,Breakfast,Milk/Tea/Coffee
+Sunday,Breakfast,Fruits
+Sunday,Lunch,Roti
+Sunday,Lunch,Masala Dal
+Sunday,Lunch,Chicken Dum Biryani/Veg Biryani
+Sunday,Lunch,Onion Cucumber Raita
+Sunday,Lunch,Paneer Butter Masala (Sweet)
+Sunday,Lunch,White Rice
+Sunday,Lunch,Rasam
+Sunday,Lunch,Pickle
+Sunday,High Tea,Samosa/Dal Kachori
+Sunday,High Tea,Chutney
+Sunday,High Tea,Milk/Tea/Coffee
+Sunday,Dinner,Roti
+Sunday,Dinner,Dal Makhani
+Sunday,Dinner,Ghughri
+Sunday,Dinner,White Rice
+Sunday,Dinner,Gulab Jamun (2 Pcs)
+Sunday,Dinner,Rasam & Pickle/Khichdi
