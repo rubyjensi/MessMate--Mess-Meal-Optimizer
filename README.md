@@ -47,3 +47,10 @@ Execute the main Python script.
 - **Control Flow:** `if/else` conditionals, `while` loops, `for` loops.
 - **File I/O:** Reading CSV files using `with open()`.
 - **Exception Handling:** `try/except` blocks to prevent crashes if the database is missing.
+
+## Future Scope & Enhancements
+The current version of MessMate successfully demonstrates the application of Python fundamentals to solve a real-world problem. However, the project architecture allows for several advanced future enhancements:
+* **Personalized User Profiles:** Implementing file-handling to save individual user profiles with specific daily macronutrient (protein/carbs/fats) and calorie targets.
+* **Web/GUI Transition:** Upgrading from a Command Line Interface (CLI) to a graphical web interface using Python libraries like Streamlit for a more intuitive user experience.
+* **Third-Party API Integration:** Instead of relying on a static dictionary, the program could dynamically fetch live, scientifically accurate nutritional data using external APIs like Nutritionix.
+* **Weekly Diet Automation:** Developing an algorithm that auto-selects the optimal meals for the entire week from the CSV file and generates a personalized diet chart based on the user's fitness goals (e.g., Fat Loss vs. Muscle Gain).
