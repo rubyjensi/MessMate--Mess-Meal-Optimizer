@@ -1,24 +1,23 @@
 import csv
 
-# 1. Nutrition Knowledge Base: Approximate nutritional mapping for evaluation.
-# This demonstrates the use of data structures (dictionaries) to the evaluator.
+# 1. Nutrition Knowledge Base: Added 'calories' for better macro tracking!
 nutrition_db = {
-    "Boiled Egg": {"protein": 6, "category": "High Protein/Low Carb"},
-    "Chicken Dum Biryani": {"protein": 25, "category": "High Protein"},
-    "Butter Chicken": {"protein": 20, "category": "High Protein/Low Carb"},
-    "Paneer Butter Masala": {"protein": 12, "category": "Good Protein"},
-    "Matar Paneer Gravy": {"protein": 10, "category": "Good Protein"},
-    "Toor Dal": {"protein": 7, "category": "Healthy Veg"},
-    "Dal Tadka": {"protein": 8, "category": "Healthy Veg"},
-    "Dal Fry": {"protein": 8, "category": "Healthy Veg"},
-    "Masala Dal (Moong)": {"protein": 7, "category": "Healthy Veg"},
-    "Egg Chop Masala": {"protein": 12, "category": "High Protein/Low Carb"},
-    "Egg Bhurji": {"protein": 14, "category": "High Protein/Low Carb"},
-    "Samosa/Dal Kachori": {"protein": 4, "category": "Oily/Junk"},
-    "Vada Pav": {"protein": 3, "category": "Oily/Junk"},
-    "Bhatura/Chole (Dry)": {"protein": 6, "category": "Oily/Junk"},
-    "Aloo Paratha With Curd": {"protein": 6, "category": "High Carb"},
-    "White Rice": {"protein": 3, "category": "High Carb"}
+    "Boiled Egg": {"protein": 6, "calories": 78, "category": "High Protein/Low Carb"},
+    "Chicken Dum Biryani": {"protein": 25, "calories": 450, "category": "High Protein"},
+    "Butter Chicken": {"protein": 20, "calories": 350, "category": "High Protein/Low Carb"},
+    "Paneer Butter Masala": {"protein": 12, "calories": 320, "category": "Good Protein"},
+    "Matar Paneer Gravy": {"protein": 10, "calories": 280, "category": "Good Protein"},
+    "Toor Dal": {"protein": 7, "calories": 150, "category": "Healthy Veg"},
+    "Dal Tadka": {"protein": 8, "calories": 160, "category": "Healthy Veg"},
+    "Dal Fry": {"protein": 8, "calories": 170, "category": "Healthy Veg"},
+    "Masala Dal (Moong)": {"protein": 7, "calories": 140, "category": "Healthy Veg"},
+    "Egg Chop Masala": {"protein": 12, "calories": 200, "category": "High Protein/Low Carb"},
+    "Egg Bhurji": {"protein": 14, "calories": 220, "category": "High Protein/Low Carb"},
+    "Samosa/Dal Kachori": {"protein": 4, "calories": 250, "category": "Oily/Junk"},
+    "Vada Pav": {"protein": 3, "calories": 280, "category": "Oily/Junk"},
+    "Bhatura/Chole (Dry)": {"protein": 6, "calories": 400, "category": "Oily/Junk"},
+    "Aloo Paratha With Curd": {"protein": 6, "calories": 350, "category": "High Carb"},
+    "White Rice": {"protein": 3, "calories": 130, "category": "High Carb"}
 }
 
 def get_meal_items(day, meal_type):
@@ -44,6 +43,7 @@ def analyze_meal(items):
     Analyzes the meal items against the nutrition database and provides fitness recommendations.
     """
     total_protein = 0
+    total_calories = 0
     warnings = []
     high_carb_warnings = []
     protein_rich_items = []
@@ -56,8 +56,11 @@ def analyze_meal(items):
         for key in nutrition_db:
             if key.lower() in item.lower():
                 protein = nutrition_db[key]["protein"]
+                calories = nutrition_db[key]["calories"]
                 category = nutrition_db[key]["category"]
+                
                 total_protein += protein
+                total_calories += calories
                 
                 if protein >= 8:
                     protein_rich_items.append(f"{item} (~{protein}g protein)")
@@ -68,7 +71,8 @@ def analyze_meal(items):
 
     # Final Output Display
     print("\n💪 --- FITNESS & MACRO REPORT --- 💪")
-    print(f"Estimated Total Protein from main dishes: ~{total_protein}g")
+    print(f"🔥 Estimated Total Calories: ~{total_calories} kcal")
+    print(f"🥩 Estimated Total Protein: ~{total_protein}g")
     
     if protein_rich_items:
         print("🟢 Best Protein Sources in this meal: ", ", ".join(protein_rich_items))
